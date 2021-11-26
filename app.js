@@ -6,7 +6,6 @@ class List {
 
         books.forEach((book) => List.addBookToList(book));
     }
-
 }
 class Store {
     static getBooks() {
