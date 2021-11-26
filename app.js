@@ -1,5 +1,4 @@
-// project objects
-const ui = new UI()
+
 // making List
 class List {
     static displayBooks() {
@@ -7,6 +6,7 @@ class List {
 
         books.forEach((book) => List.addBookToList(book));
     }
+
 }
 class Store {
     static getBooks() {
